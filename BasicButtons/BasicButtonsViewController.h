@@ -10,4 +10,9 @@
 
 @interface BasicButtonsViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *statusText;
+@property (weak, nonatomic) IBOutlet UIButton *politicsButton;
+
+- (IBAction)buttonPressed:(UIButton *)sender;
+
 @end
