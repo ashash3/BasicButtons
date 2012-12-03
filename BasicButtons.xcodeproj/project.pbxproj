@@ -18,12 +18,16 @@
 		ABD2834C166ACD9100E992B8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD2834B166ACD9100E992B8 /* Default-568h@2x.png */; };
 		ABD2834F166ACD9100E992B8 /* BasicButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD2834E166ACD9100E992B8 /* BasicButtonsViewController.m */; };
 		ABD28352166ACD9100E992B8 /* BasicButtonsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABD28350166ACD9100E992B8 /* BasicButtonsViewController.xib */; };
-		ABD28376166BFE0800E992B8 /* politics.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ABD28374166BFE0800E992B8 /* politics.jpeg */; };
-		ABD28377166BFE0800E992B8 /* politics.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD28375166BFE0800E992B8 /* politics.png */; };
-		ABD28379166BFEFC00E992B8 /* politicsHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD28378166BFEFC00E992B8 /* politicsHighlighted.png */; };
 		ABD2837C166C03E300E992B8 /* UIButton+NewsReelAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD2837B166C03E300E992B8 /* UIButton+NewsReelAdditions.m */; };
 		ABD2837F166C073C00E992B8 /* politics@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD2837D166C073C00E992B8 /* politics@2x.png */; };
 		ABD28380166C073C00E992B8 /* politicsHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD2837E166C073C00E992B8 /* politicsHighlighted@2x.png */; };
+		ABD28383166C0BAC00E992B8 /* sports@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD28381166C0BAC00E992B8 /* sports@2x.png */; };
+		ABD28384166C0BAC00E992B8 /* sportsHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD28382166C0BAC00E992B8 /* sportsHighlighted@2x.png */; };
+		ABD28387166C131A00E992B8 /* world@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD28385166C131A00E992B8 /* world@2x.png */; };
+		ABD28388166C131A00E992B8 /* worldHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD28386166C131A00E992B8 /* worldHighlighted@2x.png */; };
+		ABD2838C166C1DE800E992B8 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD2838B166C1DE700E992B8 /* background@2x.png */; };
+		ABD2838F166C509000E992B8 /* technology@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD2838D166C509000E992B8 /* technology@2x.png */; };
+		ABD28390166C509000E992B8 /* technologyHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD2838E166C509000E992B8 /* technologyHighlighted@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,13 +47,17 @@
 		ABD2834D166ACD9100E992B8 /* BasicButtonsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicButtonsViewController.h; sourceTree = "<group>"; };
 		ABD2834E166ACD9100E992B8 /* BasicButtonsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicButtonsViewController.m; sourceTree = "<group>"; };
 		ABD28351166ACD9100E992B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BasicButtonsViewController.xib; sourceTree = "<group>"; };
-		ABD28374166BFE0800E992B8 /* politics.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = politics.jpeg; sourceTree = "<group>"; };
-		ABD28375166BFE0800E992B8 /* politics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = politics.png; sourceTree = "<group>"; };
-		ABD28378166BFEFC00E992B8 /* politicsHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = politicsHighlighted.png; sourceTree = "<group>"; };
 		ABD2837A166C03E300E992B8 /* UIButton+NewsReelAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+NewsReelAdditions.h"; sourceTree = "<group>"; };
 		ABD2837B166C03E300E992B8 /* UIButton+NewsReelAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+NewsReelAdditions.m"; sourceTree = "<group>"; };
 		ABD2837D166C073C00E992B8 /* politics@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "politics@2x.png"; sourceTree = "<group>"; };
 		ABD2837E166C073C00E992B8 /* politicsHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "politicsHighlighted@2x.png"; sourceTree = "<group>"; };
+		ABD28381166C0BAC00E992B8 /* sports@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sports@2x.png"; sourceTree = "<group>"; };
+		ABD28382166C0BAC00E992B8 /* sportsHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sportsHighlighted@2x.png"; sourceTree = "<group>"; };
+		ABD28385166C131A00E992B8 /* world@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world@2x.png"; sourceTree = "<group>"; };
+		ABD28386166C131A00E992B8 /* worldHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "worldHighlighted@2x.png"; sourceTree = "<group>"; };
+		ABD2838B166C1DE700E992B8 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		ABD2838D166C509000E992B8 /* technology@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "technology@2x.png"; sourceTree = "<group>"; };
+		ABD2838E166C509000E992B8 /* technologyHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "technologyHighlighted@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,11 +134,15 @@
 		ABD28373166BFE0800E992B8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				ABD2838D166C509000E992B8 /* technology@2x.png */,
+				ABD2838E166C509000E992B8 /* technologyHighlighted@2x.png */,
+				ABD28385166C131A00E992B8 /* world@2x.png */,
+				ABD2838B166C1DE700E992B8 /* background@2x.png */,
+				ABD28386166C131A00E992B8 /* worldHighlighted@2x.png */,
+				ABD28381166C0BAC00E992B8 /* sports@2x.png */,
+				ABD28382166C0BAC00E992B8 /* sportsHighlighted@2x.png */,
 				ABD2837D166C073C00E992B8 /* politics@2x.png */,
 				ABD2837E166C073C00E992B8 /* politicsHighlighted@2x.png */,
-				ABD28378166BFEFC00E992B8 /* politicsHighlighted.png */,
-				ABD28374166BFE0800E992B8 /* politics.jpeg */,
-				ABD28375166BFE0800E992B8 /* politics.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -192,11 +204,15 @@
 				ABD2834A166ACD9100E992B8 /* Default@2x.png in Resources */,
 				ABD2834C166ACD9100E992B8 /* Default-568h@2x.png in Resources */,
 				ABD28352166ACD9100E992B8 /* BasicButtonsViewController.xib in Resources */,
-				ABD28376166BFE0800E992B8 /* politics.jpeg in Resources */,
-				ABD28377166BFE0800E992B8 /* politics.png in Resources */,
-				ABD28379166BFEFC00E992B8 /* politicsHighlighted.png in Resources */,
 				ABD2837F166C073C00E992B8 /* politics@2x.png in Resources */,
 				ABD28380166C073C00E992B8 /* politicsHighlighted@2x.png in Resources */,
+				ABD28383166C0BAC00E992B8 /* sports@2x.png in Resources */,
+				ABD28384166C0BAC00E992B8 /* sportsHighlighted@2x.png in Resources */,
+				ABD28387166C131A00E992B8 /* world@2x.png in Resources */,
+				ABD28388166C131A00E992B8 /* worldHighlighted@2x.png in Resources */,
+				ABD2838C166C1DE800E992B8 /* background@2x.png in Resources */,
+				ABD2838F166C509000E992B8 /* technology@2x.png in Resources */,
+				ABD28390166C509000E992B8 /* technologyHighlighted@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

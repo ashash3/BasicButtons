@@ -21,7 +21,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"background"]];
     [self.politicsButton styleWith:@"politics"];
+    [self.sportsButton styleWith:@"sports"];
+    [self.worldButton styleWith:@"world"];
+    [self.technologyButton styleWith:@"technology"];
+    
 }
 
 - (void)didReceiveMemoryWarning

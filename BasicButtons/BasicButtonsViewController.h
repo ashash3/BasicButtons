@@ -12,6 +12,9 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *statusText;
 @property (weak, nonatomic) IBOutlet UIButton *politicsButton;
+@property (weak, nonatomic) IBOutlet UIButton *sportsButton;
+@property (weak, nonatomic) IBOutlet UIButton *worldButton;
+@property (weak, nonatomic) IBOutlet UIButton *technologyButton;
 
 - (IBAction)buttonPressed:(UIButton *)sender;
 

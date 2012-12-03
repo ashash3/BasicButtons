@@ -15,8 +15,12 @@
 {
     [self setBackgroundImage:[UIImage imageNamed:category] forState:UIControlStateNormal];
     [self setBackgroundImage:[UIImage imageNamed: [NSString stringWithFormat:@"%@Highlighted", category]] forState:UIControlStateHighlighted];
-    self.layer.cornerRadius = 5;
-    self.clipsToBounds = YES;
+    self.layer.shadowColor = [UIColor darkGrayColor].CGColor;
+    self.layer.shadowRadius = 1.5f;
+    self.layer.shadowOpacity = 0.8;
+    self.layer.shadowOffset = CGSizeMake(0, 2);
+//    self.layer.cornerRadius = 5;
+//    self.clipsToBounds = YES;
 //    self.layer.borderColor = [UIColor grayColor].CGColor;
 //    self.layer.borderWidth = 0.5f;
 }
